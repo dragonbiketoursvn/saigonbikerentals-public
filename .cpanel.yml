@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/customar/dragonbiketours.com
-    - export DEPLOYPATH2=/home/customar/dragonbiketours.com/assets
-    - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/index.html $DEPLOYPATH
-    - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/assets/ $DEPLOYPATH2
+    - export DEPLOYPATH=/home/customar/saigonbikerentals.com
+    - export DEPLOYPATH2=/home/customar/saigonbikerentals.com/assets
+    - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/index.html $DEPLOYPATH
+    - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/assets/ $DEPLOYPATH2
