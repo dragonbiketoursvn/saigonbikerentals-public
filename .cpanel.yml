@@ -3,5 +3,9 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/customar/saigonbikerentals.com
     - export DEPLOYPATH2=/home/customar/saigonbikerentals.com/assets
+    - export DEPLOYPATH3=/home/customar/saigonbikerentals.com/mail
+    - export DEPLOYPATH4=/home/customar/saigonbikerentals.com/vendor
     - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/index.html $DEPLOYPATH
     - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/assets/ $DEPLOYPATH2
+    - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/mail/ $DEPLOYPATH3
+    - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/vendor/ $DEPLOYPATH4
