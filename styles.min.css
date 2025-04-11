@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
   font-family: Nunito, sans-serif;
 }
+#mainNav {
+  border: 2px solid green;
+  display: flex;
+}
 .text-muted {
   text-align: center;
   color: #777;
@@ -207,6 +211,8 @@ fieldset[disabled] .btn-xl:hover {
   font-family: Nunito, sans-serif;
   text-transform: uppercase;
   font-size: 12px;
+  border: 2px solid blue;
+  order: 2;
 }
 .navbar-custom .nav li a {
   font-family: Nunito, sans-serif;
@@ -258,6 +264,9 @@ fieldset[disabled] .btn-xl:hover {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  .navbar-nav {
+    border: 2px solid blue;
+  }
   .navbar-custom .navbar-nav > .active > a {
     border-top: 0;
     border-left: 0;
@@ -305,6 +314,10 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   text-align: center;
+}
+
+a.svg {
+  border: 2px soid green;
 }
 
 a.svg:after {
@@ -866,6 +879,8 @@ body {
 
 .navbar-header {
   position: relative;
+  display: flex;
+  border: 2px solid red;
 }
 h1 {
   font-size: 1.2em;
