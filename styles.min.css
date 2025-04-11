@@ -881,6 +881,7 @@ body {
   position: relative;
   display: flex;
   border: 2px solid red;
+  margin: auto;
 }
 h1 {
   font-size: 1.2em;
@@ -898,7 +899,7 @@ h1 {
     left: 31%;
   }
   .navbar-custom {
-    padding-bottom: 30px !important;
+    padding-bottom: 5px !important;
   }
 }
 @media (max-width: 600px) {
