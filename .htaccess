@@ -9,7 +9,5 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 
-order deny,allow
-deny from all
-allow from 2402:800:6370:6f5f:ed9f:5f7e:1917:ca68
+
 
