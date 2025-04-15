@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "tron"; /* Choose a name for your font-family */
+  src: url("./assets/fonts/Tr2n.ttf") format("truetype"); /* Path to your font file */
+  /* You can also specify font-weight and font-style if needed */
+  /* font-weight: normal; */
+  /* font-style: normal; */
+}
+
 body {
   overflow-x: hidden;
   font-family: Nunito, sans-serif;
@@ -366,7 +374,9 @@ a.svg:after {
 
 header .intro-text .intro-heading {
   text-shadow: 1px 1px 2px #000;
-  font-family: Nunito, sans-serif;
+  /* font-family: Nunito, sans-serif; */
+  color: #fefefe;
+  font-family: tron;
   text-transform: uppercase;
   font-weight: 200;
   font-size: 35px;
@@ -399,7 +409,9 @@ header .intro-text .intro-heading {
   }
 
   header .intro-text .intro-heading {
-    font-family: Nunito, sans-serif;
+    /* font-family: Nunito, sans-serif; */
+    color: #fefefe;
+    font-family: tron;
     text-transform: uppercase;
     font-weight: 200;
     font-size: 1.5em;
