@@ -212,6 +212,8 @@ fieldset[disabled] .btn-xl:hover {
   text-transform: uppercase;
   font-size: 12px;
   border: 2px solid blue;
+  margin-top: 0;
+  margin-bottom: 0;
   order: 2;
 }
 .navbar-custom .nav li a {
@@ -317,7 +319,7 @@ header .intro-text .intro-lead-in {
 }
 
 a.svg {
-  border: 2px soid green;
+  border: 2px solid green;
   display: flex;
   align-items: center;
 }
@@ -347,13 +349,16 @@ a.svg:after {
 
 .horse-rentals {
   border: 1px solid black;
+  color: #ec3237;
 }
 
 .words {
   display: flex;
   flex-direction: column;
   border: 2px solid red;
+  color: #3f3f95;
   align-self: flex-end;
+  margin-bottom: 2px;
 }
 
 header .intro-text .intro-heading {
