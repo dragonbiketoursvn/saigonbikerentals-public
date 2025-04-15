@@ -11,4 +11,5 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 order deny,allow
 deny from all
-allow from 116.108.34.11
+allow from 116.102.47.164
+
