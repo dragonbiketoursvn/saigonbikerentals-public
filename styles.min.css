@@ -318,6 +318,8 @@ header .intro-text .intro-lead-in {
 
 a.svg {
   border: 2px soid green;
+  display: flex;
+  align-items: center;
 }
 
 a.svg:after {
@@ -325,13 +327,33 @@ a.svg:after {
   font-style: italic;
   font-size: 14px;
   font-weight: bold;
-  color: #990000;
+  color: #ec3237;
   line-height: 22px;
   margin-bottom: 5px;
   text-align: center;
-  content: "SAIGON HORSE RENTALS";
+  /* content: "SAIGON HORSE RENTALS"; */
+  /* white-space: pre-line; */
+  /* content: "SAIGON\A HORSE\A RENTALS"; */
   position: relative;
   display: inline-block;
+}
+
+.dick {
+  /* position: absolute;
+  right: 0;
+  bottom: 0; */
+  border: 1px solid purple;
+}
+
+.horse-rentals {
+  border: 1px solid black;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  align-self: flex-end;
 }
 
 header .intro-text .intro-heading {
@@ -349,6 +371,7 @@ header .intro-text .intro-heading {
 
 .logo {
   height: 6em;
+  border: 1px solid purple;
 }
 
 @media (min-width: 768px) {
