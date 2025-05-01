@@ -79,6 +79,10 @@ td {
   padding-left: 10px;
   padding-right: 10px;
 }
+.margin-tb-10px {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .margin-tb-30px {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -203,6 +207,22 @@ fieldset[disabled] .btn-xl:hover {
   color: rgba(33, 150, 243, 0.6);
   background-color: #fff;
 }
+button.dropdown-toggle {
+  border-radius: 20px !important;
+  margin-left: 15px !important;
+}
+.badge-default-like {
+  color: #333; /* Text color of btn-default */
+  background-color: #fff; /* Background color of btn-default */
+  border: 1px solid #ccc; /* Border of btn-default */
+  line-height: 1;
+  min-width: 70px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border-radius: 15px !important;
+  padding: 7px 5px;
+}
+
 .navbar-custom {
   color: #000;
   border-color: transparent;
