@@ -222,7 +222,12 @@ button.dropdown-toggle {
   border-radius: 15px !important;
   padding: 7px 5px;
 }
-
+#filters {
+  border: 2px solid red;
+  display: flex;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
 .navbar-custom {
   color: #000;
   border-color: transparent;
@@ -979,5 +984,8 @@ h1 {
     top: 35px;
     width: auto;
     left: 5%;
+  }
+  #filters {
+    flex-wrap: wrap;
   }
 }

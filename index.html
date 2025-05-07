@@ -95,68 +95,60 @@
     <div class="col-lg-12 text-center">
       <h2 class="section-heading">Our Bikes</h2>
       <h3 class="section-subheading-no-style text-muted">
-        blah blah blah blah blah
+        <a href="tel:555-555-5555">555-555-5555</a>
       </h3>
 
       <div class="row margin-tb-10px">
-
-        <div class="container"
-          style="border: 2px solid red; display: flex; justify-content:left; flex-wrap: nowrap; overflow-x: auto;">
-          <span class="badge badge-default-like"><span class="glyphicon glyphicon-filter"></span> Filter
-          </span>
-          <div class="btn-group  btn-group-md">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-              Genitals <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Cock</a></li>
-              <li><a href="#">Balls</a></li>
-              <li><a href="#">Pussy</a></li>
-            </ul>
+        <div class="container" style="display: flex; justify-content:left; flex-wrap: nowrap;">
+          <div style="border: 2px solid green;">
+            <span class="badge badge-default-like"><span class="glyphicon glyphicon-filter"></span> Filter By
+            </span>
           </div>
+          <div id="filters">
+            <div class="btn-group  btn-group-md" data-filter-set="off" data-filter-name="license">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                License Required <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a>No License</a></li>
+                <li><a>A1 (or equivalent)</a></li>
+                <li><a>A/A2 (or equivalent)</a></li>
+              </ul>
+            </div>
 
-          <div class="btn-group  btn-group-md">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-              Genitals <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Cock</a></li>
-              <li><a href="#">Balls</a></li>
-              <li><a href="#">Pussy</a></li>
-            </ul>
-          </div>
+            <div class="btn-group  btn-group-md" data-filter-set="off" data-filter-name="drivetrain">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Drivetrain Type <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a>Automatic</a></li>
+                <li><a>Semi-Automatic</a></li>
+                <li><a>Manual</a></li>
+              </ul>
+            </div>
 
-          <div class="btn-group  btn-group-md">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-              Genitals <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Cock</a></li>
-              <li><a href="#">Balls</a></li>
-              <li><a href="#">Pussy</a></li>
-            </ul>
-          </div>
+            <div class="btn-group  btn-group-md" data-filter-set="off" data-filter-name="rent">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Monthly Rent <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a>Low to High</a></li>
+                <li><a>High to Low</a></li>
+              </ul>
+            </div>
 
-          <div class="btn-group  btn-group-md">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-              Genitals <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Cock</a></li>
-              <li><a href="#">Balls</a></li>
-              <li><a href="#">Pussy</a></li>
-            </ul>
-          </div>
+            <!-- <div class="btn-group  btn-group-md">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Sort by Rent, Low to High
+              </button>
+            </div>
 
-          <div class="btn-group  btn-group-md">
-            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-              Genitals <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Cock</a></li>
-              <li><a href="#">Balls</a></li>
-              <li><a href="#">Pussy</a></li>
-            </ul>
+            <div class="btn-group  btn-group-md">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Sort by Rent, Low to High
+              </button>
+            </div> -->
+
           </div>
 
         </div>
@@ -224,7 +216,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img src="assets/img/bikes/ab-4.png" class="img-responsive img-centered" alt="Honda Airblade, v4">
+              <img src="assets/img/bikes/ab-4.webp" class="img-responsive img-centered" alt="Honda Airblade, v4">
             </a>
             <div class="portfolio-caption">
               <h4>Honda Airblade, v4</h4>
@@ -909,7 +901,12 @@
               <div class="modal-body">
                 <h2>Honda Lead, v3</h2>
                 <p class="item-intro text-muted">
-                  Mom bike!
+                  Honda Lead. Respectable citizen. Pillar of the vehicular community. Now in a slightly updated
+                  version, because you can only keep selling the same thing for so many years before people
+                  start muttering that your best days are behind you. So here is the 3rd iteration of the Lead,
+                  largely identical to its predecessor in size, weight, and performance but with some new color
+                  schemes and slightly improved headlights. Since this is a newer model, it signifies higher
+                  social status for anyone who rides it.
                 </p>
                 <img src="assets/img/bikes/lead-3-large.jpg" class="img-responsive img-centered" alt="Honda Lead, v3">
               </div>
@@ -1084,9 +1081,14 @@
               <div class="modal-body">
                 <h2>Honda Airblade, v4</h2>
                 <p class="item-intro text-muted">
-                  oogly boogly
+                  Lorem ipsum dolor sit amet, consectetur -haha! Just checking to see if you're actually
+                  reading this. As you can see, this is an Airblade. The second most recent version
+                  to be precise. It's front profile has been slimmed down a bit compared to the previous
+                  generation's and its wedge-shaped headlamp case sends the message that it can slice through
+                  traffic like a hot knife through butter. It also has a full 0.3hp of extra power over its predecessor
+                  -vroom vroom!
                 </p>
-                <img src="assets/img/bikes/ab-4-large.png" class="img-responsive img-centered" alt="Honda Airblade, v4">
+                <img src="assets/img/bikes/ab-4.webp" class="img-responsive img-centered" alt="Honda Airblade, v4">
               </div>
             </div>
             <div class="col-xs-12 col-sm-6 text-center">
@@ -1168,7 +1170,14 @@
               <div class="modal-body">
                 <h2>Yamaha Janus</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Effortless style meets everyday practicality with the
+                  Yamaha Janus. This sleek and lightweight scooter is perfect for navigating the bustling streets of Ho
+                  Chi Minh City. Enjoy its fuel-efficient engine, comfortable ride, and ample
+                  storage for your essentials. The Janus offers a smooth and confident experience, making it an ideal
+                  choice for solo
+                  riders seeking a reliable and stylish way to explore the city. Rent the Yamaha Janus today and
+                  discover the freedom of
+                  two-wheeled travel!
                 </p>
                 <img src="assets/img/bikes/janus-large.png" class="img-responsive img-centered" alt="Yamaha Janus">
               </div>
@@ -1250,7 +1259,16 @@
               <div class="modal-body">
                 <h2>Yamaha Freego</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Experience the smart convenience and surprising spaciousness of the Yamaha Freego. This modern scooter
+                  is designed for
+                  comfortable city commuting and beyond. 1 Featuring a fuel-efficient engine, a large 25-liter
+                  under-seat storage – big
+                  enough for a full-face helmet – and a practical flat footboard, the Freego makes everyday errands and
+                  exploring Ho Chi
+                  Minh City a breeze. Enjoy its agile handling and smart features, making it a versatile and dependable
+                  choice for riders
+                  who value both practicality and style. Rent the Yamaha Freego and unlock a new level of urban
+                  mobility!
                 </p>
                 <img src="assets/img/bikes/freego-large.jpeg" class="img-responsive img-centered" alt="Yamaha Freego">
               </div>
@@ -1332,7 +1350,15 @@
               <div class="modal-body">
                 <h2>Honda Winner X</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Unleash your inner rider with the dynamic and stylish Honda Winner X. This sporty underbone motorbike
+                  delivers
+                  exhilarating performance and sharp handling, perfect for navigating Ho Chi Minh City with confidence
+                  and flair.
+                  Featuring a powerful engine and modern design, the Winner X offers an engaging and responsive riding
+                  experience. Ideal
+                  for those seeking a more spirited and agile way to explore the city, the Honda Winner X is ready for
+                  your next
+                  adventure. Rent it now and feel the thrill of the ride!
                 </p>
                 <img src="assets/img/bikes/winner-x-large.jpeg" class="img-responsive img-centered"
                   alt="Honda Winner X">
@@ -1370,7 +1396,7 @@
               </tr>
               <tr class="bg-lightgray">
                 <td class="left">Max Power</td>
-                <td>18hp</td>
+                <td>15.4hp</td>
               </tr>
               <tr class="bg-morelightgray">
                 <td class="left">Transmission Type</td>
@@ -1415,7 +1441,10 @@
               <div class="modal-body">
                 <h2>Honda Winner</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Seeing Yamaha's success with the Exciter, Honda threw their hat in the ring with the Winner,
+                  a bike of virtually identical dimensions and perfomance specs. Compared to the Exciter, the
+                  Winner has slightly higher max power output and slightly lower max torque and has 6 gears
+                  rather than 5. Other than that the differences between the two models are largely cosmetic.
                 </p>
                 <img src="assets/img/bikes/winner-large.webp" class="img-responsive img-centered" alt="Honda Winner">
               </div>
@@ -1497,7 +1526,13 @@
               <div class="modal-body">
                 <h2>Yamaha Exciter</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Originally a semi-automatic model, the boffins at Yamaha decided to change it up with a
+                  manual clutch giving rise to the small underbone motorcycle segment (i.e. scooter-sized manual
+                  motorbikes). While Honda was quick to follow with the Winner, the Exciter has been able to
+                  hold its ground. Lightweight and surprisingly powerful for a 150cc, this one is great in the
+                  city or on the open road (please observe the very low speed limits at all times). Suspension travel
+                  is significantly better than most automatic or semi-automatic scooters of similar size so
+                  much easier on the back for anyone with a long commute.
                 </p>
                 <img src="assets/img/bikes/exciter-large.jpg" class="img-responsive img-centered" alt="Yamaha Exciter">
               </div>
@@ -1661,7 +1696,9 @@
               <div class="modal-body">
                 <h2>Honda Airblade, v3</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  With the 3rd version of the Airblade series, Honda upped the engine capacity from 110cc to 125cc
+                  adding a not insignificant boost in power (from 9hp to 11hp). Similar in profile to the v2 'đầu bò'
+                  the rounded headlamp case has been replaced with a more angular design.
                 </p>
                 <img src="assets/img/bikes/ab-3.webp" class="img-responsive img-centered" alt="Honda Airblade, v3">
               </div>
@@ -1743,7 +1780,12 @@
               <div class="modal-body">
                 <h2>Honda Lead, v2</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Honda had a good thing on their hands with the Lead. It pretty well established
+                  the low-ground-clearance-cutesie-looking-with-massive-trunk style scooter. However
+                  the styling on the original version gave it a strong association with bank secretaries
+                  and mothers ferrying their children about. So to further broaden its appeal, they
+                  gave it a sportier design and upped the engine capacity from 110 to a mighty 125cc.
+                  This is a bike for anyone and all occasions (other than offroading, MotoGP, etc. etc.)
                 </p>
                 <img src="assets/img/bikes/lead-2-large.jpg" class="img-responsive img-centered" alt="Honda Lead, v2">
               </div>
@@ -1907,7 +1949,14 @@
               <div class="modal-body">
                 <h2>Honda Lead, v1</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  The original Honda Lead! This model grew out of an engineers' brainstorming session
+                  when one guy said, "You know what guys? I'll bet people would really dig a bike with
+                  a big-ass trunk. Like something that could fit a couple cases of beer." And the Lead
+                  was born. Plenty of trunk space and a seat that comfortably fits a family of four (if
+                  said family grew up in Vietnamese motorbike culture), this is the minivan
+                  of the scootering world. This is not a sexy bike. You'd look ridiculous riding one
+                  in a leather jacket. But it is very sensible and a remarkably smooth ride (as long as you're
+                  on nicely paved surfaces).
                 </p>
                 <img src="assets/img/bikes/lead-1.jpg" class="img-responsive img-centered" alt="Honda Lead, v1">
               </div>
@@ -1989,7 +2038,11 @@
               <div class="modal-body">
                 <h2>Honda Vision</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Aside from some small cosmetic changes and the addition of idle stop and electronic keys,
+                  the Vision has remained almost unchanged since its 2011 introduction to the Vietnamese market.
+                  And why not? People love it. It's sprightly and petite, yet somehow without getting pigeonholed
+                  as a 'small bike'. Its favorable power-to-weight ratio make it zippy and highly responsive, not to
+                  mention quite fuel-efficient.
                 </p>
                 <img src="assets/img/bikes/vision.webp" class="img-responsive img-centered" alt="Honda Vision">
               </div>
@@ -2071,7 +2124,12 @@
               <div class="modal-body">
                 <h2>SYM Elite</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Obviously you're not going to impress anyone with a 50cc scooter but if you don't have a valid
+                  license you can ride this without violating any laws. And to be honest, the Elite is a decent
+                  little bike. It's got a reaonable allotment of trunk space and sufficient torque to be able to safely
+                  accelerate and merge with traffic at normal city driving speeds. It's very fuel-efficient too!
+                  If you want to ride something bigger, get a license. It's not hard and we provide free assistance
+                  :&#41;
                 </p>
                 <img src="assets/img/bikes/elite.jpg" class="img-responsive img-centered" alt="SYM Elite">
               </div>
@@ -2153,7 +2211,13 @@
               <div class="modal-body">
                 <h2>Honda Wave RSX</h2>
                 <p class="item-intro text-muted">
-                  Lorem ipsum...
+                  Lightweight, fuel-efficient, and practically indestructible, the Wave RSX will handle city traffic or
+                  muddy mountain trails with equal aplomb. Like most semi-automatic models, it has minimal trunk space
+                  and with pegs, rather than a solid platform for foot placement, the rider's feet are more exposed to
+                  spray from the road surface when riding in the rain. Some people are intimidated by the idea of
+                  shifting
+                  gears but the learning curve for a semi-automatic clutch is very shallow and rarely takes more than
+                  a few minutes to master.
                 </p>
                 <img src="assets/img/bikes/wave-rsx-large.webp" class="img-responsive img-centered"
                   alt="Honda Wave RSX">
@@ -2342,17 +2406,226 @@
   </script>
 
   <script>
-    // bikes.forEach(bike => console.log(bike.dataset.penis));
-    // console.log(bikes);
+    const bikeList = document.querySelector('#bike-list');
+
+    if (!bikeList) {
+      console.error(`bike-list not found.`);
+    }
+
+    const bikes = Array.from(bikeList.children);
+    let filteredBikes = Array.from(bikeList.children);
+    // let removedBikes = [];
+    const filters = document.querySelector('#filters');
+    let activeFilterFunctions = [];
+    const removedMenus = {};
+    let sortedByRentAscending = false;
+
+    const createRemoveFilterMenu = (filter) => {
+      const menu = document.createElement('ul');
+      menu.classList.add('dropdown-menu');
+      menu.dataset.filter = filter;
+      const item = document.createElement('li');
+      const anchor = document.createElement('a');
+      anchor.innerHTML = 'Remove Filter';
+      item.appendChild(anchor);
+      menu.appendChild(item);
+      return menu;
+    }
+
+    const filterNoLicense = () => {
+      filteredBikes = filteredBikes.filter(bike => bike.dataset.license === 'none');
+      console.log(filteredBikes);
+    }
+    const filterA1License = () => {
+      filteredBikes = filteredBikes.filter(bike => bike.dataset.license === 'a1');
+    }
+    const filterALicense = () => {
+      filteredBikes = filteredBikes.filter(bike => bike.dataset.license === 'a');
+    }
+    const filterAutomatic = () => {
+      filteredBikes = filteredBikes.filter(bike => bike.dataset.drivetrain === 'automatic');
+    }
+    const filterSemiAutomatic = () => {
+      filteredBikes = filteredBikes.filter(bike => bike.dataset.drivetrain === 'semi-automatic');
+    }
+    const filterManual = () => {
+      filteredBikes = filteredBikes.filter(bike => bike.dataset.drivetrain === 'manual');
+    }
+    const sortRentAscending = () => {
+      filteredBikes.sort((a, b) => {
+        rentA = parseInt(a.dataset.rent);
+        rentB = parseInt(b.dataset.rent);
+        return rentA - rentB;
+      });
+    }
+    const sortRentDescending = () => {
+      filteredBikes.sort((a, b) => {
+        rentA = parseInt(a.dataset.rent);
+        rentB = parseInt(b.dataset.rent);
+        return rentB - rentA;
+      });
+    }
+
+    // function valueAscending(a, b) {
+    //   valueA = parseInt(a.dataset.value);
+    //   valueB = parseInt(b.dataset.value);
+    //   return valueA - valueB;
+    // }
+
+    // function valueDescending(a, b) {
+    //   valueA = parseInt(a.dataset.value);
+    //   valueB = parseInt(b.dataset.value);
+    //   return valueB - valueA;
+    // }
+
+    // 'A/A2 (or equivalent)'
+    // 'Automatic'
+    // 'Semi-Automatic'
+    // 'Manual'
+    // 'Low to High'
+    // 'High to Low'
+
+    const applyFilter = (filterCriterion) => {
+
+      // -applyFilter(filterCriterion) will filter 
+      // 'filteredBikes' according to filter function 
+      // and add this function to 'activFilterFunctions'
+      switch (filterCriterion) {
+        case 'No License':
+          filterNoLicense();
+          activeFilterFunctions.push(filterNoLicense);
+          break;
+        case 'A1 (or equivalent)':
+          filterA1License();
+          activeFilterFunctions.push(filterA1License);
+          break;
+        case 'A/A2 (or equivalent)':
+          filterALicense();
+          activeFilterFunctions.push(filterALicense);
+          break;
+        case 'Automatic':
+          filterAutomatic();
+          activeFilterFunctions.push(filterAutomatic);
+          break;
+        case 'Semi-Automatic':
+          filterSemiAutomatic();
+          activeFilterFunctions.push(filterSemiAutomatic);
+          break;
+        case 'Manual':
+          filterManual();
+          activeFilterFunctions.push(filterManual);
+          break;
+        case 'Low to High':
+          sortedByRentAscending = true;
+          break;
+        case 'High to Low':
+          sortedByRentAscending = false;
+          break;
+
+        default:
+          break;
+      }
+    }
+
+    // -removeFilter(filterCriterion) 
+    // will remove function from activeFilterFunctions, 
+    // and then run all activeFilterFunctions on full bike list
+
+    const removeFilter = (filterCriterion) => {
+      switch (filterCriterion) {
+        case 'No License':
+          activeFilterFunctions = activeFilterFunctions
+            .filter(filterFunction => filterFunction.name !== 'filterNoLicense');
+          break;
+        case 'A1 (or equivalent)':
+          activeFilterFunctions = activeFilterFunctions
+            .filter(filterFunction => filterFunction.name !== 'filterA1License');
+          break;
+        case 'A/A2 (or equivalent)':
+          activeFilterFunctions = activeFilterFunctions
+            .filter(filterFunction => filterFunction.name !== 'filterALicense');
+          break;
+        case 'Automatic':
+          activeFilterFunctions = activeFilterFunctions
+            .filter(filterFunction => filterFunction.name !== 'filterAutomatic');
+          break;
+        case 'Semi-Automatic':
+          activeFilterFunctions = activeFilterFunctions
+            .filter(filterFunction => filterFunction.name !== 'filterSemiAutomatic');
+          break;
+        case 'Manual':
+          activeFilterFunctions = activeFilterFunctions
+            .filter(filterFunction => filterFunction.name !== 'filterManual');
+          break;
+        default:
+          break;
+      }
+      filteredBikes = [...bikes];
+      activeFilterFunctions.forEach(filterFunction => {
+        filterFunction();
+      });
+    }
+
+    const displayBikes = (filteredBikes) => {
+      bikeList.innerHTML = '';
+      sortedByRentAscending ? sortRentAscending() : sortRentDescending();
+      filteredBikes.forEach(bike => bikeList.appendChild(bike));
+    }
+
+    const filterApplyRemove = (e) => {
+      const buttonGroup = e.target.closest('.btn-group');
+      const filterName = buttonGroup.dataset.filterName;
+      const dropdownMenu = buttonGroup.querySelector('.dropdown-menu');
+      const button = buttonGroup.querySelector('button');
+      const childSpan = button.querySelector('span');
+
+      if (e.target.nodeName === 'A') {
+        if (buttonGroup.dataset.filterSet === 'off') {
+          const filterCriterion = e.target.innerHTML;
+          buttonGroup.dataset.filterSet = 'on';
+          removedMenus[filterName] = { dropdown: buttonGroup.removeChild(dropdownMenu) };
+          removedMenus[filterName].text = button.innerText;
+          const removeFilterMenu = createRemoveFilterMenu(filterCriterion);
+          buttonGroup.appendChild(removeFilterMenu);
+          button.classList.add('btn-warning');
+          button.innerText = e.target.innerText + ' ';
+          button.appendChild(childSpan);
+          applyFilter(filterCriterion);
+          console.log(activeFilterFunctions);
+          displayBikes(filteredBikes);
+        } else {
+          // re-display bikes with any other filters still applied
+
+          // filter-set to 'off'      
+          buttonGroup.dataset.filterSet = 'off';
+
+          // remove the removeFilterMenu
+          const dropdownMenu = buttonGroup.querySelector('.dropdown-menu');
+          removeFilter(dropdownMenu.dataset.filter);
+          dropdownMenu.remove();
+          // re-attach the original menu (from removedMenus)
+          // console.log(removedMenus);
+          // console.log(filterName);
+          buttonGroup.appendChild(removedMenus[filterName].dropdown);
+          button.innerText = removedMenus[filterName].text + ' ';
+          button.appendChild(childSpan);
+          // remove 'btn-warning' class
+          button.classList.remove('btn-warning');
+          displayBikes(filteredBikes);
+        }
+      }
+    }
+
+    filters.addEventListener('click', filterApplyRemove);
 
     function reorderBikes(orderingFunction) {
-      const bikeList = document.querySelector('#bike-list');
-      if (!bikeList) {
-        console.error(`bike-list not found.`);
-        return;
-      }
+      // const bikeList = document.querySelector('#bike-list');
+      // if (!bikeList) {
+      //   console.error(`bike-list not found.`);
+      //   return;
+      // }
 
-      const bikes = Array.from(bikeList.children);
+      // const bikes = Array.from(bikeList.children);
       bikes.sort(orderingFunction);
       bikeList.innerHTML = '';
 
@@ -2374,19 +2647,7 @@
       // });
     }
 
-    function valueAscending(a, b) {
-      valueA = parseInt(a.dataset.value);
-      valueB = parseInt(b.dataset.value);
-      return valueA - valueB;
-    }
-
-    function valueDescending(a, b) {
-      valueA = parseInt(a.dataset.value);
-      valueB = parseInt(b.dataset.value);
-      return valueB - valueA;
-    }
-
-    reorderBikes(valueDescending);
+    // reorderBikes(valueDescending);
     // reorderBikes(valueAscending);
 
   </script>
