@@ -211,6 +211,9 @@ button.dropdown-toggle {
   border-radius: 20px !important;
   margin-left: 15px !important;
 }
+.dropdown-menu {
+  cursor: default;
+}
 .badge-default-like {
   color: #333; /* Text color of btn-default */
   background-color: #fff; /* Background color of btn-default */
@@ -222,11 +225,18 @@ button.dropdown-toggle {
   border-radius: 15px !important;
   padding: 7px 5px;
 }
-#filters {
+#filters,
+#license-filters {
   border: 2px solid red;
   display: flex;
   justify-content: left;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+.glyphicon-large {
+  font-size: 35px;
+}
+#license-filters button {
+  margin-bottom: 5px;
 }
 .navbar-custom {
   color: #000;
@@ -268,11 +278,17 @@ button.dropdown-toggle {
 .navbar-custom .navbar-nav > .active > a:hover {
   background: 0 0;
 }
+.process-steps a {
+  text-decoration: underline;
+}
 .separator {
   color: #000;
   display: none !important;
   font-weight: 200;
   margin-top: 14px;
+}
+#license-categories {
+  margin-bottom: 50px !important;
 }
 @media (min-width: 768px) {
   .separator {
@@ -337,6 +353,12 @@ header {
   text-align: center;
   color: #fff;
 }
+.panel-heading.lead {
+  margin-bottom: 0 !important;
+}
+.license-category {
+  vertical-align: middle !important;
+}
 header .intro-text {
   font-weight: 200;
   text-shadow: 1px 1px 2px #000;
@@ -359,7 +381,16 @@ a.svg {
   display: flex;
   align-items: center;
 }
-
+.fa-phone {
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.fa-whatsapp {
+  color: #31d24f;
+  border: 2px solid green;
+  border-radius: 50%;
+}
 a.svg:after {
   font-family: Nunito, sans-serif;
   font-style: italic;
@@ -747,6 +778,10 @@ section h3.section-subheading-no-style {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+  .our-fleet {
+    margin-left: 160px !important;
+    margin-right: 160px !important;
+  }
 }
 .team-member {
   text-align: center;
@@ -985,7 +1020,10 @@ h1 {
     width: auto;
     left: 5%;
   }
-  #filters {
+  #filters,
+  #license-filters {
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 }
