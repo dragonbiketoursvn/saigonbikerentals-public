@@ -13,4 +13,4 @@ deployment:
     - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/mail/ $DEPLOYPATH3
     - rsync -a -v --delete-after /home/customar/repositories/saigonbikerentals-public/vendor/ $DEPLOYPATH4
 
-    - chgrp nobody /home/customar/dragonbiketours.com
+    # - chgrp nobody /home/customar/dragonbiketours.com
